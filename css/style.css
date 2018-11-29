@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Marvel");
+
+body {
+  background-image: url("../Images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  font-family: "Marvel", sans-serif;
+  color: aliceblue;
+}
+
+header {
+  font-size: 3rem;
+}
+
+header h1,
+p {
+  text-align: center;
+  margin-top: 0;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 900;
+}
+
+.firstTeam {
+  height: 50%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.secondTeam {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div {
+  display: block;
+  width: 200px;
+  height: 250px;
+  border: black solid 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 12px 0 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  filter: brightness(85%);
+  transition: all 0.4s ease-in-out;
+}
+
+div:hover {
+  border: 2px solid rgb(197, 19, 19);
+  filter: brightness(100%);
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+button {
+  font-size: 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Marvel", sans-serif;
+  background: none;
+  color: aliceblue;
+}
+
+button:hover{
+font-weight: 900;
+}
+
+.hulk {
+  background-image: url(../Images/Heroes/Hulk.jpg);
+}
+
+.widow {
+  background-image: url(../Images/Heroes/BlackWidow.jpg);
+}
+
+.captain {
+  background-image: url(../Images/Heroes/captain-america.jpg);
+}
+
+.iron {
+  background-image: url(../Images/Heroes/IronMan.jpg);
+}
+
+.hawkeye {
+  background-image: url(../Images/Heroes/Hawkeye.jpg);
+}
+
+.thor {
+  background-image: url(../Images/Heroes/Thor.jpg);
+}
+
+.off {
+  opacity: 0;
+}
+
+.hidden {
+  background-image: url("../Images/Heroes/Logo.jpg");
+}
